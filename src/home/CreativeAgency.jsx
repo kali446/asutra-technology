@@ -1,15 +1,9 @@
 import React, { Component, Fragment } from "react";
 import { Parallax } from "react-parallax";
-import Slider from "react-slick";
-import { slickDot } from "../page-demo/script";
-
 import Header from "../component/header/Header";
 import ServiceList from "../elements/service/ServiceList";
-import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
 import BlogContent from "../elements/blog/BlogContent";
-import BrandTwo from "../elements/BrandTwo";
 import FooterTwo from "../component/footer/FooterTwo";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
@@ -23,51 +17,17 @@ const SlideList = [
     category: "",
     title: "Asutra Technology ",
     description:
-      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
+      "Asutra Technology is a startup software development company established in 2022. We provide quality service using cutting edge technology, clean design and user friendly interface. We are committed to deliver high end software which is robust, secure, simple and highly scalable application in precise deadline.",
     buttonText: "Contact Us",
     buttonLink: "/contact",
   },
 ];
 
-const list = [
-  {
-    image: "image-1",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-2",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-];
-
 class CreativeAgency extends Component {
   render() {
-    const PostList = BlogContent.slice(0, 5);
     return (
       <Fragment>
-        <Helmet pageTitle="Creative Agency" />
+        <Helmet pageTitle="Asutra Technology" />
         <Header logo="light" />
         {/* Start Slider Area   */}
         <div className="slider-activation slider-creative-agency">
@@ -132,7 +92,7 @@ class CreativeAgency extends Component {
         {/* End Service Area  */}
 
         {/* Start Portfolio Area */}
-        <div className="portfolio-area pt--120 pb--140 bg_color--5">
+        {/* <div className="portfolio-area pt--120 pb--140 bg_color--5">
           <div className="rn-slick-dot">
             <div className="container">
               <div className="row">
@@ -179,11 +139,11 @@ class CreativeAgency extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Portfolio Area */}
 
         {/* Start CounterUp Area */}
-        <div className="rn-counterup-area pt--140 p pb--110 bg_color--1">
+        {/* <div className="rn-counterup-area pt--140 p pb--110 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -194,7 +154,7 @@ class CreativeAgency extends Component {
             </div>
             <CounterOne />
           </div>
-        </div>
+        </div> */}
         {/* End CounterUp Area */}
 
         {/* Start Team Area  */}
@@ -204,10 +164,7 @@ class CreativeAgency extends Component {
               <div className="col-lg-6">
                 <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
                   <h2 className="title">Skilled Team</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
+                  <p>Here is our list of highly skilled team.</p>
                 </div>
               </div>
             </div>
@@ -219,15 +176,15 @@ class CreativeAgency extends Component {
         {/* End Team Area  */}
 
         {/* Start Testimonial Area */}
-        <div className="rn-testimonial-area bg_color--1 ptb--120">
+        {/* <div className="rn-testimonial-area bg_color--1 ptb--120">
           <div className="container">
             <Testimonial />
           </div>
-        </div>
+        </div> */}
         {/* End Testimonial Area */}
 
         {/* Start Blog Area */}
-        <div className="rn-blog-area pt--120 pb--140 bg_color--5">
+        {/* <div className="rn-blog-area pt--120 pb--140 bg_color--5">
           <div className="container">
             <div className="row align-items-end">
               <div className="col-lg-6">
@@ -270,11 +227,11 @@ class CreativeAgency extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Blog Area */}
 
         {/* Start Brand Area */}
-        <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+        {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -282,7 +239,7 @@ class CreativeAgency extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Brand Area */}
 
         {/* Start Footer Style  */}
