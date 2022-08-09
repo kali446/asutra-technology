@@ -3,7 +3,6 @@ import { Parallax } from "react-parallax";
 import Header from "../component/header/Header";
 import ServiceList from "../elements/service/ServiceList";
 import Team from "../elements/Team";
-import BlogContent from "../elements/blog/BlogContent";
 import FooterTwo from "../component/footer/FooterTwo";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
